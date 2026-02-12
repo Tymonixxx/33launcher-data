@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "rss": "",
+  "discord": {
+    "clientId": "1471269135362031789",
+    "smallImageText": "Najlepszy client MINECRAFT!",
+    "smallImageKey": "big"
+  },
+  "servers": [
+    {
+      "id": "my-client-fabric-1-21-4",
+      "name": "33 Launcher | 1.21.4",
+      "description": "Profesjonalny Client na silniku Fabric 1.21.4. Czysty, szybki, bez Forge.",
+      "icon": "https://raw.githubusercontent.com/Tymonixxx/33launcher-data/main/icons/logos/33launcher.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "Fabric 1.21.4",
+        "largeImageKey": "https://raw.githubusercontent.com/Tymonixxx/33launcher-data/main/icons/logos/33launcher.png",
+        "largeImageText": "Fabric Mode"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.9",
+          "name": "Fabric Loader",
+          "type": "Library",
+          "artifact": {
+            "size": 1387357,
+            "MD5": "27A6EF87676CE6316C777D81C1CD2962",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.9/fabric-loader-0.16.9.jar"
+          }
+        },
+        {
+          "id": "sodium",
+          "name": "Sodium (Optymalizacja)",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "MD5": "28922A78D1876EE062E3265F10ABCC46",
+            "url": "https://raw.githubusercontent.com/Tymonixxx/33launcher-data/main/mods/sodium/sodium-fabric-0.6.13%2Bmc1.21.4.jar"
+          }
+        }
+      ]
+    }
+  ]
+}
